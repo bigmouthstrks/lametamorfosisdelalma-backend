@@ -10,6 +10,7 @@ export class WebhookController {
   ): void {
     console.log('Received webhook:', body);
     console.log('Headers:', headers);
+
     // Process the webhook data here...
   }
 }
