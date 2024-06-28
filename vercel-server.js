@@ -1,6 +1,5 @@
-const { createServer } = require('vercel-node-server');
-const { join } = require('path');
-
+import { createServer } from 'vercel-node-server';
+import { join } from 'path';
 const appPath = join(__dirname, 'dist/main');
 const app = require(appPath);
 
